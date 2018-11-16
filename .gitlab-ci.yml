@@ -1,0 +1,28 @@
+
+stages:
+   - prepare
+   - transfer
+   - build
+   - validate
+   - publish
+
+prepare-zone:
+   stage: prepare
+   script: "./run-ci-build-smartos.sh prepare"
+
+transfer-script:
+   stage: transfer
+   script: "./run-ci-build-smartos.sh transfer"
+
+build-smartos:
+   stage: build
+   script: "./run-ci-build-smartos.sh build"
+
+validate-smartos:
+   stage: validate
+   script: "./run-ci-build-smartos.sh validate"
+
+publish-smartos:
+   stage: publish
+   script: "./run-ci-build-smartos.sh publish"
+
