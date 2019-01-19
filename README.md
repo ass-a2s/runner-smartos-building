@@ -17,3 +17,5 @@ Gitlab-Runner Example
 
 ![](images/ass_smartos_on_smartos_gitlab_build.png)
 
+![](images/ass_smartos_on_smartos_gitlab_build2.png)
+
