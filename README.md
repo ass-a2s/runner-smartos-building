@@ -12,3 +12,8 @@ Scheme
 
 ![](images/ass_smartos_on_smartos_build.png)
 
+Gitlab-Runner Example
+=====================
+
+![](images/ass_smartos_on_smartos_gitlab_build.png)
+
